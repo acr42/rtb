@@ -11,7 +11,9 @@
 
 ## Instructions
 
-1. To get the data, run `python Code/download_data.py` - this will create a folder called Data in the root
+1. To get the data, download the data dump (6.6 GB zip) from http://data.computational-advertising.org/. 
+2. You must then create a subfolder Data/. 
+3. In a seperate notebook you will then need to split the downloaded data into the subfiles Data/train.csv, Data/validation.csv and Data/test.csv. 
 
 For:
 - **Reports** see [GROUP](https://github.com/uclwe/rtb/blob/master/Reports/group_01_report.pdf) / [ACR](https://github.com/uclwe/rtb/blob/master/Reports/acowen-rivers_report.pdf) / [LB](https://github.com/uclwe/rtb/blob/master/Reports/lynray_barends_report.pdf) / [TW](https://github.com/uclwe/rtb/blob/master/Reports/twarr_report.pdf)
