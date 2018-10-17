@@ -11,9 +11,18 @@
 
 ## Instructions
 
-1. To get the data, download the data dump (6.6 GB zip) from http://data.computational-advertising.org/. 
+Pre-processed Dataset
+
+1. Download the files https://drive.google.com/drive/folders/165CDcG3pTd07-XUFon5M2cWS47hvLMnR?usp=sharing
 2. You must then create a subfolder Data/. 
-3. In a seperate notebook you will then need to split the downloaded data into the subfiles Data/train.csv, Data/validation.csv and Data/test.csv. 
+3. Split the downloaded data into the subfiles Data/train.csv, Data/validation.csv and Data/test.csv. 
+
+Full Dataset
+
+1. To get the full dataset, download the data dump (6.6 GB zip) from http://data.computational-advertising.org/. 
+2. You must then create a subfolder Data/. 
+3. In a seperate notebook you will then need to split the downloaded data into a pandas dataframe, with columns for the user profiles, click information and payprices. 
+4. Into the subfiles Data/train.csv, Data/validation.csv and Data/test.csv. 
 
 For:
 - **Reports** see [GROUP](https://github.com/uclwe/rtb/blob/master/Reports/group_01_report.pdf) / [ACR](https://github.com/uclwe/rtb/blob/master/Reports/acowen-rivers_report.pdf) / [LB](https://github.com/uclwe/rtb/blob/master/Reports/lynray_barends_report.pdf) / [TW](https://github.com/uclwe/rtb/blob/master/Reports/twarr_report.pdf)
